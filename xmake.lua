@@ -23,7 +23,7 @@ target("minhook")
     add_files("minhook/src/**.c")
     add_includedirs("minhook/include", {public=true})
 
-target("chrome_plus")
+target("ChromeX")
     set_kind("shared")
     set_targetdir("$(buildir)/release")
     set_basename("version")
